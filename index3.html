@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+            }
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown-button {
+                background-color: #000000;
+                color: white;
+                padding: 14px 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .dropdown:hover .dropdown-button {
+                background-color: #000000;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="dropdown">
+        <button class="dropdown-button">Menu</button>
+        <div class="dropdown-content">
+            <a href="index.html">Séries</a>
+            <a href="index2.html">Filmes</a>
+           
+        </div>
+    </div>
+    
+    </body>
+    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhar a Logomarca</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo de Adivinhar a Logomarca</h1>
+        <div id="level-container">
+            <p>Nível: <span id="level">1</span></p>
+        </div>
+        <div id="score-container">
+            <p>Pontuação: <span id="score">0</span></p>
+        </div>
+        <div id="image-container">
+            <img id="series-image" src="imagem/logo1.webp" alt="Imagem da Série">
+        </div>
+        <div id="options-container"></div>
+    </div>
+    <script src="script3.js"></script>
+
+    <footer>
+        <p>&copy; 2024 DiegoRiquelmy. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

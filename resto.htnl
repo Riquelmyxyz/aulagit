@@ -1,0 +1,21 @@
+
+const seriesImages = [
+    "imagem/nivel1.jpg",
+    "imagem/nivel2.webp",
+    "imagem/nivel3.jpg",
+    "imagem/nivel4.webp",
+    "imagem/nivel5.png",
+    "imagem/nivel6.jpg",
+    "imagem/nivel7.jpg",
+    // Adicione mais imagens de níveis aqui
+];
+
+const seriesNames = [
+    "wandavision",
+    "stranger things",
+    "game of thrones",
+    "wandinha",
+    "la casa de papel",
+    "breaking bad",
+    "agatha desde sempre",
+    // Adicione mais nomes de séries aqui
